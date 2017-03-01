@@ -1,0 +1,188 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #e7e7e7;
+}
+a{
+	text-decoration:none;
+}
+#title{
+	width: 100%;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background: #00cac9;
+	position: relative;
+	margin-bottom: 10px;
+}
+#title a{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #fff;
+	border-top: 0px;
+	border-right: 0px;
+	transform: rotate(45deg);
+}
+#title span{
+	color: #fff;
+	font-size: 2rem;
+}
+#banner{
+	width: 100%;
+	height: 142px;
+	margin-bottom: 10px;
+	background: url(../img/sq_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#content{
+	width: 100%;
+	height: auto;
+	padding: 8px ;
+	box-sizing: border-box;
+}
+#content .clock{
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+}
+#content .clock img{
+	width: 100%;
+	height: 100%;
+	vertical-align: bottom;
+	vertical-align: bottom;
+}
+#content .clock div{
+	color: #fff;
+	font-size: 1rem;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+/*#content .clock button{
+	position: relative;
+	top: 70px;
+	left: 138px;
+	width: 76px;
+	height: 22px;
+	border: 0px;
+	border-radius: 5px;
+	background: #f3615a;
+	color: #fff;
+	font-size: 1.5rem;
+}*/
+.activity{
+	width: 100%;
+	position: relative;
+	background: #fff;
+	margin-bottom: 60px;
+}
+.activity .header{
+	width: 100%;
+	height: 133px;
+}
+.activity .title{
+	position: absolute;
+	top: 10px;
+	left: -2px;
+	width: 98px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background: #00cac9; 
+	color: #fff;
+}
+.activity .activity-info{
+	width: 100%;
+	padding:11px 4px;
+	box-sizing: border-box;
+	color: #000;
+}
+.activity .activity-info .info-name{
+	width: 100%;
+	font-size: 1.8rem;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+.activity .activity-info .info-name .right{
+	float: right;
+	font-size: 1.5rem;
+	color: #a9a9a9;
+	line-height: 26px;
+	font-weight:normal;
+}
+.activity .activity-info .info-name .right span{
+	color:  #00cac9;
+}
+.activity .activity-info .info-place{
+	width: 100%;
+	height: 20px;
+	font-size: 1.5rem;
+	margin-bottom: 7px;
+}
+.activity .activity-info .info-place img{
+	height: 20px;
+	vertical-align: middle;
+	vertical-align: bottom;
+}
+.activity .activity-info .info-place span{
+	vertical-align: middle;
+}
+.activity .activity-info .info-time{
+	width: 100%;
+	height: 20px;
+	font-size: 1.5rem;
+	margin-bottom: 7px;
+	vertical-align: bottom;
+}
+.activity .activity-info .info-time img{
+	height: 20px;
+	width: 20px;
+}
+.activity .activity-info .info-time span{
+	position: relative;
+	bottom: 5px;
+}
+#shopcar{
+	width: 38px;
+	height: 38px;
+	background: url(../img/sq_0.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	right: 10px;
+	bottom: 60px;
+}
+#footer{
+	width: 100%;
+	height: 50px;
+	background: #00cac9;
+	position: fixed;
+	bottom: 0px;
+}
+#footer table{
+	width: 100%;
+	border-collapse:collapse;
+}
+#footer tr td img{
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+}
+#footer tr td{
+	height: 46px;
+	width: 25%;
+	padding: 0px;
+	border-bottom: 4px solid #00a6a5;
+	vertical-align: middle;
+	text-align: center;
+}
+#footer .check{
+	border-bottom: 4px solid #fff;
+}

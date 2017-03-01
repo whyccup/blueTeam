@@ -1,0 +1,152 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background:#f0f0f0;
+}
+a{
+	text-decoration:none;
+}
+#title{
+	width: 100%;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background: #00cac9;
+	position: relative;
+}
+#title a{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #fff;
+	border-top: 0px;
+	border-right: 0px;
+	transform: rotate(45deg);
+}
+#title span{
+	color: #fff;
+	font-size: 2rem;
+}
+
+
+.header{
+	width: 100%;
+	position: relative;
+}
+.header img{
+	width: 100%;
+	height: 100%;
+	vertical-align: bottom;
+	vertical-align: bottom;
+}
+.header .howday{
+	background: #fff;
+	width: 70px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 0.8rem;
+	color: red;
+	text-align: center;
+	border-radius: 15px 0 0 15px;
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+}
+
+#date{
+	width: 100%;
+	padding: 12px 8px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+}
+#date .right{
+	float: right;
+}
+#date img{
+	width: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+	vertical-align: bottom;
+}
+#date span{
+	font-size: 1.1rem;
+	text-indent: 10px;
+}
+#date a{
+	display: inline-block;
+	border-left: 1px solid #ddd;
+	text-indent: 0px;
+	padding-left:5px;
+	margin-left: 5px;
+	box-sizing: border-box;
+}
+
+#wejoin{
+	background: #fff;
+	width: 100%;
+	padding: 15px 8px;
+	box-sizing: border-box;
+}
+.join-men{
+	width: 100%;
+	margin-bottom: 13px; 
+}
+.join-men img{
+	height: 36px;
+	width: 36px;
+	margin-right: 11px;
+	vertical-align: middle;
+	vertical-align: bottom;
+}
+.join-men a{
+	display: inline-block;
+	vertical-align: middle;
+	height: 36px;
+	font-size: 3rem;
+	color: #c69de8;
+}
+
+#wejoin .wejoined{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: #000;
+	font-size: 1.1rem;
+}
+#wejoin .wejoined span{
+	color: #00cac9;
+}
+
+.justjoin{
+	width: 100%;
+	padding: 0px 8px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.justjoin button{
+	width:170px; 
+	height: 30px;
+	border:0px;
+	border-radius: 15px;
+	background: #00cac9;
+	color: #fff;
+	font-size: 1.3rem;
+}
+
+
+#clockinfo{
+	width: 100%;
+	color: #333333;
+	padding: 30px 8px;
+}
+#clockinfo span{
+	font-size: 1.1rem;
+}
+#clockinfo p{
+	line-height: 25px;
+}
