@@ -1,0 +1,154 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background:#fff;
+}
+a{
+	text-decoration:none;
+}
+#title{
+	width: 100%;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background: #00cac9;
+	position: relative;
+}
+#title a{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #fff;
+	border-top: 0px;
+	border-right: 0px;
+	transform: rotate(45deg);
+}
+#title span{
+	color: #fff;
+	font-size: 2rem;
+}
+
+#user-head{
+	width:60px;
+	height: 60px;
+	padding:5px;
+	box-sizing: border-box;
+	background: #e4e4e4;
+	border-radius: 45px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+#user-head img{
+	width: 50px;
+	height: 50px;
+	vertical-align: bottom;
+}
+
+#user-name{
+	width: 50px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 0.9rem;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+#user{
+	width: 100%;
+	text-align: center;
+}
+.user-clockinfo{
+	display: inline-block;
+	width:25%;
+	border:2px solid #e4e4e4;
+	margin:9px;
+	position: relative;
+}
+.user-clockinfo .left{
+	display: block;
+	width: 18px;
+	height: 6px;
+	border-radius: 15px;
+	background: #00cac9;
+	position: absolute;
+	top: -4px;
+	left: 15px;
+}
+.user-clockinfo .right{
+	display: block;
+	width: 18px;
+	height: 6px;
+	border-radius: 15px;
+	background: #00cac9;
+	position: absolute;
+	top: -4px;
+	right: 15px;
+}
+.user-clockinfo .user-title{
+	display: block;
+	margin: 10px auto; 
+	font-size: 1rem;
+}
+.user-clockinfo div{
+	font-size: 4rem;
+	font-weight: bold;
+	color: #fd917b;
+}
+.user-clockinfo div span{
+	font-size: 0.9rem;
+	color: #00cac9;
+}
+#makefriend{
+	width: 100%;
+	text-align: center;
+	margin: 20px auto;
+
+}
+#makefriend button{
+	width:170px; 
+	height: 30px;
+	border:0px;
+	border-radius: 15px;
+	background: #00cac9;
+	color: #fff;
+	font-size: 1.3rem;
+}
+#makefriend div{
+	margin-top: 10px;
+	font-size: 1.2rem; 
+}
+#makefriend span{
+	color: #00cac9;
+}
+#friend{
+	border-top: 1px solid #e4e4e4;
+	padding: 0px 25px;
+}
+#friend .friends{
+	margin: 20px 0;
+}
+#friend .friends img{
+	width: 37px;
+	height: 37px;
+	vertical-align: bottom;
+	vertical-align: middle;
+}
+#friend .friends div{
+	display: inline-block;
+	vertical-align: middle;
+}
+#friend .friends div span{
+	display: block;
+	font-size: 1rem
+}
+#friend .friends  .friend-name{
+	color: #00cac9;
+}

@@ -1,0 +1,126 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #f7f7f7;
+}
+a{
+	text-decoration:none;
+}
+#title{
+	width: 100%;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background: #00cac9;
+	position: relative;
+}
+#title a{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #fff;
+	border-top: 0px;
+	border-right: 0px;
+	transform: rotate(45deg);
+}
+#title span{
+	color: #fff;
+	font-size: 2rem;
+}
+#PayOrNo{
+	width: 100%;
+	color:#acacac;
+	background: #fff;
+	padding:0px 15px;
+	box-sizing: border-box;
+}
+#PayOrNo span{
+	display: inline-block;
+	width: 40%;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+}
+#PayOrNo .check{
+	border-bottom: 2px solid #00cac9;
+}
+
+.activitys{
+	margin:15px;
+	background: #fff;
+	border-radius: 5px;
+}
+.activitys .top{
+	padding: 8px;
+	padding-bottom: 0px;
+}
+.activitys .top .left{
+	float: left;
+}
+.activitys .top .left img{
+	widows: 67px;
+	height: 67px;
+	vertical-align: bottom;
+}
+.activitys .top .center{
+	float: left;
+	height: 67px;
+	line-height: 9px;
+	font-size: 3.5rem;
+	color: #ff87b7;
+	margin: 0 3px;
+}
+.activitys .top .right {
+	position: relative;
+}
+.activitys .top .right .activityTitle{
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+}
+.activitys .top .right .activityWW{
+	font-size: 0.8rem;
+	color: #999999;
+	margin-bottom: 5px;
+}
+.activitys .top .right .back{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.activitys .top .right .back img{
+	width: 14px;
+	height: 14px;
+}
+
+
+.activitys .top:after{
+	content: "";
+	clear: both;
+	overflow: hidden;
+	display: block;
+}
+.activitys .bottom{
+	margin: 8px;
+	border-top: 1px solid #f7f7f7;
+	padding: 4px 8px;
+	padding-right: 0px;
+	box-sizing: border-box;
+}
+.activitys .bottom .right{
+	text-align: right;
+	vertical-align: middle;
+}
+.activitys .bottom .right img{
+	width: 14px;
+	height: 14px;
+	vertical-align: bottom;
+	margin-right: 3px;
+}
+.activitys .bottom .right span{
+	font-size: 0.9rem;
+	color: #ff87b7;
+}
