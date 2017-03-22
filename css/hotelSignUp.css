@@ -1,0 +1,151 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #fff;
+}
+a{
+	text-decoration:none;
+}
+#title{
+	width: 100%;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background: #00cac9;
+	position: relative;
+}
+#title a{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #fff;
+	border-top: 0px;
+	border-right: 0px;
+	transform: rotate(45deg);
+}
+#title span{
+	color: #fff;
+	font-size: 2rem;
+}
+
+#activity-name{
+	width: 100%;
+	padding: 12px 9px;
+	box-sizing: border-box;
+	font-size: 1.4rem;
+	color: #7d7d7d;
+	box-shadow: 0px 3px 4px 0 #e2e2e2;
+}
+
+
+#activity-when{
+	background: #fff;
+	width: 100%;
+	box-shadow: inset 0px 3px 4px 0 #e2e2e2;
+	padding: 15px 8px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dcdcdc;
+	border-top: 1px solid #dcdcdc;
+	font-size: 0.8rem;
+}
+
+#activity-when div{
+	margin-bottom: 14px;
+}
+#activity-when div img{
+	width: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+	vertical-align: bottom;
+}
+#activity-when div span{
+	display: inline-block;
+	vertical-align: middle;
+	text-indent:  8px;
+}
+#activity-when .place{
+	margin: 0px;
+}
+
+#user-form{
+	width: 100%;
+	padding: 15px 20px;
+	padding-bottom: 0px;
+	box-sizing: border-box;
+	color: #b0b0b0;
+}
+#user-form .user-info{
+	width: 100%;
+	margin-bottom: 15px;
+}
+#user-form .user-info div{
+	width: 100%;
+	font-size:1rem; 
+	text-indent: 15px;
+}
+#user-form .user-info input,.price{
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	color: #000;
+	border: 1px solid #d3d3d3;
+	border-radius: 15px;
+	margin-top: 5px;
+	padding:0px;
+	text-align: center;
+}
+#user-form .integral span{
+	color: #00cac9;
+}
+#user-form .Remarks {
+	border-bottom: 1px solid #d3d3d3;
+	margin-bottom: 0px;
+}
+#user-form .Remarks input{
+	height: 90px;
+	margin-bottom: 25px;
+}
+
+#pay{
+	width: 100%;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	float: right;
+	color: #b0b0b0;
+	font-size: 1rem;
+}
+#pay:after{
+	content: "";
+	clear: both;
+	overflow: hidden;
+}
+#pay div{
+	text-align: right;
+	margin-bottom: 5px;
+}
+#pay div span{
+	display: inline-block;
+	width: 40px;
+}
+#pay .realpay{
+	color: red;
+}
+
+#push{
+	width: 100%;
+	text-align: center;
+}
+#push button{
+	width:130px; 
+	height: 30px;
+	border:0px;
+	border-radius: 15px;
+	background: #00cac9;
+	color: #fff;
+	font-size: 1.3rem;
+	margin-bottom: 20px
+}

@@ -1,0 +1,187 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	background: #f0f0f0;
+}
+a{
+	text-decoration:none;
+}
+p{
+	display: inline-block;
+	margin: 0px;
+	padding:0px;
+	color: #333333;
+}
+#title{
+	width: 100%;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background: #00cac9;
+	position: relative;
+}
+#title a{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 12px;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #fff;
+	border-top: 0px;
+	border-right: 0px;
+	transform: rotate(45deg);
+}
+#title span{
+	color: #fff;
+	font-size: 2rem;
+}
+
+
+.img{
+	width: 100%;
+	height: 150px;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+
+#name{
+	padding: 5px 8px;
+	line-height: 19px;
+	background: #fff;
+}
+#name .storeName{
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 19px;
+	color: #000;
+}
+#name .right{
+	font-size: 1rem;
+	color: #b0b0b0;
+	float: right;
+}
+#price{
+	padding:0px 8px;
+	padding-bottom: 5px;
+	background: #fff;
+	font-size: 1.3rem;
+}
+#price .nowPrice{
+	color: red;
+	margin-left: 2px;
+	margin-right: 5px;
+	font-weight: bold;
+}
+#price .costPrice{
+	text-decoration:line-through;
+	font-size: 1.2rem;
+}
+#howManySale{
+	margin: 10px 0px;
+	text-align: center;
+	background: #fff;
+}
+#howManySale ul{
+	margin: 0px;
+	padding: 0px;
+}
+#howManySale ul li{
+	display: inline-block;
+	margin: 10px 0px;
+	font-size: 1.3rem;
+}
+#howManySale ul li img{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+#howManySale ul li span{
+	color: red;
+}
+#goodsNum{
+	margin: 10px 0px;
+	background: #fff;
+	color: #b0b0b0;
+	padding: 10px;
+	padding-left: 2px;
+	font-size: 1.3rem;
+}
+#goodsNum button{
+	background: #fff;
+	border:2px solid #b0b0b0;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	vertical-align: middle;
+}
+#goodsNum input{
+	border:2px solid #b0b0b0;
+	width: 60px;
+	height: 22px;
+	text-align: center;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+#goodsNum span{
+	vertical-align: middle;
+	margin: 0px 8px;
+}
+#joinCar{
+	width: 170px;
+    height: 30px;
+    border: 0px;
+    border-radius: 15px;
+    background: #ff78b6;
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 30px 0px;
+}
+#goodsIntroduce{
+	background: #fff;
+	padding: 1px 8px;
+	color: #a1a1a1;
+	width: 100%;
+	box-sizing: border-box;
+}
+#goodsIntroduce .title{
+	width: 110px;
+	padding: 8px;
+	margin: 15px auto;
+	border:2px solid #00cac9;
+	text-align: center;
+	font-size: 1.4rem;
+}
+#goodsIntroduce p{
+	font-size: 1.2rem;
+	text-indent: 24px;
+	line-height: 18px;
+}
+#goodsIntroduce .img{
+	margin: 10px 0;
+}
+.CanShu table{  
+    border-collapse:collapse;
+    border-spacing:0;
+    margin:0;
+    padding:0;
+    border:none;
+}
+.CanShu tr{
+	margin: 0px;
+	padding: 0px;
+}
+.CanShu tr td{
+	font-size: 1.2rem;
+	margin: 5px 2px;
+	width: 95px;
+	display: inline-block;
+	text-align: left;
+}
+.CanShu tr td span{
+	margin: 0 5px;
+	color: #000;
+}

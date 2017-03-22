@@ -116,17 +116,16 @@ a{
 	box-sizing: border-box;
 }
 .activitys .bottom .right{
-	text-align: right;
-	vertical-align: middle;
+	text-align: right;	
+}
+.activitys .bottom .right button{
+	width: 70px;
 	height: 22px;
-}
-.activitys .bottom .right img{
-	width: 18px;
-	height: 18px;
-	vertical-align: bottom;
-	margin-right: 3px;
-}
-.activitys .bottom .right span{
-	font-size: 1.4rem;
-	color: #ff87b7;
+	padding: 0px;
+	border: 0px;
+	border-radius: 15px;
+	background-color: #ff87b7;
+	color:#fff;
+	font-size: 0.9rem;
+
 }
